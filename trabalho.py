@@ -2,8 +2,9 @@ import librosa
 import numpy as np
 import os
 
+!wget https://raw.githubusercontent.com/RogerFialho/sinais-e-sistemas-trabalho/main/marcha_imperial.wav
 
-#audio
+audio = "marcha_imperial.wav"
 
 y, sr = librosa.load(audio)
 n = len(y)
